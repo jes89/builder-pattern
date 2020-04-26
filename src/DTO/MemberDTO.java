@@ -20,7 +20,7 @@ public class MemberDTO {
 		private final String name;
 		private final String phone;
 		
-		private int point = 0;
+		private long point = 0;
 
 		
 		public Builder(String name, String phone) {
@@ -28,7 +28,7 @@ public class MemberDTO {
 			this.phone = phone;
 		}
 		
-		public Builder setPoint(int val) {
+		public Builder setPoint(long val) {
 			this.point = val;
 			return this;
 		}
